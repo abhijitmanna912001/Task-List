@@ -34,6 +34,7 @@ const App = () => {
                       value={editText}
                       onChange={(e) => setEditText(e.target.value)}
                       className="border border-gray-300 p-1 rounded-lg mr-2"
+                      placeholder="Edit your todo"
                     />
                     <button
                       onClick={() => handleUpdate(index)}

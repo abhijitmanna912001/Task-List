@@ -26,6 +26,7 @@ const MainArea = () => {
         />
         <div className="mt-2 flex items-center">
           <select
+            title="Select a List"
             value={selectedList}
             onChange={(e) => setSelectedList(e.target.value)}
             className="border border-gray-300 p-2 rounded-lg mr-2"
@@ -40,6 +41,7 @@ const MainArea = () => {
             ))}
           </select>
           <select
+            title="Select a Workspace"
             value={selectedWorkspace}
             onChange={(e) => setSelectedWorkspace(e.target.value)}
             className="border border-gray-300 p-2 rounded-lg"
